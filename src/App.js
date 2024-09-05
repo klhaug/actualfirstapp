@@ -6,7 +6,7 @@ import SearchBox from "./SearchBox";
 const App = () => {
     return (
         <div className="tc">
-            <h1>Annikens Plants</h1>
+            <h1 className="f1">Annikens Plants</h1>
             <SearchBox/>
             <CardList Plants = {Plants} />
         </div>

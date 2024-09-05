@@ -1,15 +1,15 @@
 import React from "react";
-import './Card.css';
+import "./Card.css"
 
-const Card = ({picture, name, description, family}) => {
+const Card = ({img, navn, description, family}) => {
     return (
-        <div className="tc dib br3 pa4 ma4 grow bw2 shadow-5 Card1" >
-            <img src={picture} alt=""/>
-            <h1>{name}</h1>
+        <div className="tc bg-washed-green dib br3 pa3 ma2 grow bw2 shadow-5">
+            <img src={img} alt=""/>
+            <h1>{navn}</h1>
             <p>{description}</p>
-            <h2>{family}</h2>
+            <h3>{family}</h3>
         </div>
     );
-};
+}
 
 export default Card;
